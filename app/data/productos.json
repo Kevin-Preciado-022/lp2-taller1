@@ -1,0 +1,17 @@
+[
+  {
+    "sku": "GAM-001",
+    "marca": "Rockstar Games",
+    "nombre": "Red Dead Redemption 2",
+    "precio": 149900,
+    "foto": "images/Red Dead Redemption 2.jpg"
+  }
+    {
+    "sku": "GAM-002",
+    "marca": "Bungie Studios",
+    "nombre": "Halo: Combat Evolved",
+    "precio": 199900,
+    "foto": "images/Halo: Combat Evolved.jpg"
+  }
+  
+]
