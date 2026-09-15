@@ -5,13 +5,30 @@
     "nombre": "Red Dead Redemption 2",
     "precio": 149900,
     "foto": "images/Red Dead Redemption 2.jpg"
-  }
-    {
+  },
+
+  {
     "sku": "GAM-002",
     "marca": "Bungie Studios",
     "nombre": "Halo: Combat Evolved",
     "precio": 199900,
     "foto": "images/Halo: Combat Evolved.jpg"
+  },
+
+  {
+    "sku": "GAM-003",
+    "marca": "Capcom",
+    "nombre": "resident evil 1",
+    "precio": 80000,
+    "foto": "images/Halo: Combat Evolved.jpg"
+  },
+
+  {
+    "sku": "GAM-004",
+    "marca": "Xbox Game Studios",
+    "nombre": "Gears of War",
+    "precio": 80000,
+    "foto": "images/Gears of War.jpg"
   }
-  
+
 ]
