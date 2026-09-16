@@ -25,10 +25,57 @@
 
   {
     "sku": "GAM-004",
-    "marca": "Xbox Game Studios",
+    "marca": "Epic Games",
     "nombre": "Gears of War",
     "precio": 80000,
     "foto": "images/Gears of War.jpg"
-  }
+  },
 
+  {
+    "sku": "GAM-005",
+    "marca": "Mythos Games",
+    "nombre": "XCOM Enemy Unknown",
+    "precio": 80000,
+    "foto": "images/XCOM.jpg"
+  },
+
+  {
+    "sku": "GAM-006",
+    "marca": "Bungie Studios",
+    "nombre": "halo 2",
+    "precio": 39900,
+    "foto": "images/Gears of War2.jpg"
+  },
+
+  {
+    "sku": "GAM-007",
+    "marca": "Twentieth Century Fox",
+    "nombre": "alien isolation",
+    "precio": 130000,
+    "foto": "images/alien isolation.jpg"
+  },
+
+  {
+    "sku": "GAM-008",
+    "marca": "Epic Games",
+    "nombre": "Gears of War2",
+    "precio": 34400,
+    "foto": "images/Gears of War2.jpg"
+  },
+
+  {
+    "sku": "GAM-003",
+    "marca": "Capcom",
+    "nombre": "resident evil 2",
+    "precio": 33000,
+    "foto": "images/Halo: Combat Evolved.jpg"
+  },
+
+  {
+    "sku": "GAM-005",
+    "marca": "Mythos Games",
+    "nombre": "XCOM 2",
+    "precio": 160000,
+    "foto": "images/XCOM2.jpg"
+  }
 ]
