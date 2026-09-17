@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+  {{ producto.nombre }}
+{% endblock %}
+
+{% block content %}
+  <h1>{{ producto.nombre }}</h1>
+  <div class="detalle-producto">
+    <img src="{{ producto.imagen }}" alt="{{ producto.nombre }}" width="300">
+    <p><strong>Marca:</strong> {{ producto.marca }}</p>
+    <p><strong>SKU:</strong> {{ producto.sku }}</p>
+    <p><strong>Precio:</strong> ${{ producto.precio }}</p>
+  </div>
+  <a href="{{ url_for('main.index') }}">← Volver al catálogo</a>
+{% endblock %}
