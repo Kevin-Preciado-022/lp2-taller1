@@ -20,7 +20,7 @@
     "marca": "Capcom",
     "nombre": "resident evil 1",
     "precio": 80000,
-    "foto": "images/resident evil 1.jpg"
+    "foto": "images/residentevil1.jpg"
   },
 
   {
@@ -28,7 +28,7 @@
     "marca": "Epic Games",
     "nombre": "Gears of War",
     "precio": 80000,
-    "foto": "images/Gears of War.jpg"
+    "foto": "images/GearsofWar.jpg"
   },
 
   {
@@ -52,7 +52,7 @@
     "marca": "Twentieth Century Fox",
     "nombre": "alien isolation",
     "precio": 130000,
-    "foto": "images/alien isolation.jpg"
+    "foto": "images/alienisolation.jpg"
   },
 
   {
@@ -60,7 +60,7 @@
     "marca": "Epic Games",
     "nombre": "Gears of War2",
     "precio": 34400,
-    "foto": "images/Gears of War2.jpg"
+    "foto": "images/GearsofWar2.jpg"
   },
 
   {
@@ -68,7 +68,7 @@
     "marca": "Capcom",
     "nombre": "resident evil 2",
     "precio": 33000,
-    "foto": "images/resident evil 2"
+    "foto": "images/residentevil2.jpg"
   },
 
   {
