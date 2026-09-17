@@ -12,7 +12,7 @@
     "marca": "Bungie Studios",
     "nombre": "Halo: Combat Evolved",
     "precio": 199900,
-    "foto": "images/Halo: Combat Evolved.jpg"
+    "foto": "images/HaloCombat Evolved.jpg"
   },
 
   {
@@ -20,7 +20,7 @@
     "marca": "Capcom",
     "nombre": "resident evil 1",
     "precio": 80000,
-    "foto": "images/Halo: Combat Evolved.jpg"
+    "foto": "images/resident evil 1.jpg"
   },
 
   {
@@ -44,7 +44,7 @@
     "marca": "Bungie Studios",
     "nombre": "halo 2",
     "precio": 39900,
-    "foto": "images/Gears of War2.jpg"
+    "foto": "images/halo 2.jpg"
   },
 
   {
@@ -68,7 +68,7 @@
     "marca": "Capcom",
     "nombre": "resident evil 2",
     "precio": 33000,
-    "foto": "images/Halo: Combat Evolved.jpg"
+    "foto": "images/resident evil 2"
   },
 
   {
