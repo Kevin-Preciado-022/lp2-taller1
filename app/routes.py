@@ -1,12 +1,15 @@
 from flask import Blueprint, render_template, abort
 import json
+import os
+ 
 
 # 1. Definir el blueprint
 main = Blueprint('main', __name__)
 
 # 2. Función para cargar productos desde productos.json
 def cargar_productos():
-    with open('productos.json', 'r', encoding='utf-8') as f:
+    print("Python está buscando en:", os.getcwd())
+    with open('app/data/productos.json', 'r', encoding='utf-8') as f:
         productos = json.load(f)
     return productos
 
