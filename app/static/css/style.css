@@ -1,0 +1,121 @@
+/* style.css - Catálogo gamer estilo Xbox */
+
+/* 🎮 Catálogo Gamer Xbox Estético */
+
+body {
+    font-family: 'Orbitron', 'Segoe UI', Tahoma, sans-serif;
+    background: radial-gradient(circle at top, #0d0d0d, #000000);
+    color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #107c10, #0a0a0a);
+    padding: 25px;
+    text-align: center;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+    border-bottom: 2px solid #00ff00;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #e5e5e5;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+    color: #00ff00;
+    text-shadow: 0 0 8px #00ff00;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: linear-gradient(180deg, #1a1a1a, #0d0d0d);
+    border: 2px solid #107c10;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,255,0,0.2) 0%, transparent 70%);
+    transform: rotate(25deg);
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00ff00;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #107c10;
+}
+
+.card h3 {
+    color: #00ff00;
+    margin-bottom: 10px;
+    text-shadow: 0 0 6px #00ff00;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 15px;
+    background-color: #107c10;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #00ff00;
+    color: #0d0d0d;
+    box-shadow: 0 0 12px #00ff00;
+}
+
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 20px;
+    color: #00ff00;
+    border-top: 2px solid #107c10;
+    text-shadow: 0 0 8px #00ff00;
+}
